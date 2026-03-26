@@ -1,5 +1,0 @@
-spring:
- data:
-  mongodb:
-   uri: mongodb+srv://PARV:Parv%4066@cluster0.gzbo5z1.mongodb.net/vayunetradb
-   auto-index-creation: true
