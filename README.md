@@ -41,8 +41,15 @@ Vayunetra provides:
 - 📊 Monitor AQI data across locations  
 - ⚙️ Manage alerts and thresholds  
 - 👥 User/activity monitoring  
-- 📈 View analytics and reports  
+- 📈 View analytics and reports
+  
+## 🧠 AI Logic
+The system uses AQI thresholds to generate health advice:
 
+- AQI < 50 → Good air quality
+- AQI 50–100 → Moderate
+- AQI 100–200 → Wear mask
+- AQI > 200 → Stay indoors
 ---
 
 ## 📸 Screenshots
