@@ -1,73 +1,68 @@
-# Welcome to your Lovable project
+# 🌍 Vayunetra — Smart Air Quality & Health Advisory System
 
-## Project info
+## 🚀 Overview
+Vayunetra is an intelligent system designed to monitor air quality in real-time and provide personalized health advisories based on environmental conditions. It helps both citizens and government authorities take timely action during poor air quality situations.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🎯 Problem Statement
+Air pollution is a major issue, especially in urban areas. People often lack real-time insights and actionable recommendations based on air quality data.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 💡 Solution
+Vayunetra analyzes air quality data (AQI) and generates:
+- Health recommendations for citizens
+- Alerts for authorities
+- Smart decision suggestions using AI-based logic
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## ⚙️ Features
+- 📊 Real-time AQI monitoring
+- 🧠 AI-based health recommendations
+- 🚨 Alert system for critical pollution levels
+- 🏛️ Admin dashboard for authorities
+- 📡 Supabase integration for backend
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🧠 AI Logic (Core Idea)
+The system analyzes AQI values and generates recommendations:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+| AQI Range | Advice |
+|----------|--------|
+| 0–50     | Air is Good |
+| 51–100   | Moderate |
+| 101–200  | Wear Mask |
+| 200+     | Stay Indoors |
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🏗️ Tech Stack
+- Frontend: React + Vite + Tailwind CSS
+- Backend: Java Spring boot 
+- Language: TypeScript / JavaScript
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🔄 Workflow
+1. Fetch AQI data
+2. Analyze using logic/AI
+3. Generate recommendation
+4. Display on dashboard
+5. Send alerts (future scope)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+## 🌐 Future Scope
+- Integration with government systems
+- Automated email/SMS alerts
+- Predictive air quality analysis using ML
+
+---
+
+## 📌 How to Run
+```bash
+npm install
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
